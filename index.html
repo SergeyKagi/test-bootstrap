@@ -4,10 +4,69 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Тестовый сайт для изучения Bootstrap</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/fontello.css" />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
+
   <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="text-center text-white">Эндуро уроки с Kagi</h1>
+            <div
+              class="itd_play"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <div class="itd_triangle"></div>
+            </div>
+
+            <a href="#footer" class="btn btn-itd btn-lg text-uppercase"
+              >Смотреть</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <footer id="footer">1</footer>
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Offroad Yamaha Tenere 700
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="embed-container">
+              <iframe
+                src="https://www.youtube.com/embed//A1cKBis2nP4"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
